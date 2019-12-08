@@ -1,0 +1,52 @@
+body {
+    background-color: whitesmoke;
+}
+
+.toDo {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+    flex-direction: column;
+}
+
+.toDoList {
+    width: 50%;
+    align-items: center;
+    margin: auto;
+    border: solid 1px;
+    padding: 30px;
+    background-color: #ff0d7b;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+   }
+
+.header {
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color: black;
+    height: 1px;
+  }
+
+.taskIsDone {
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.checkbox {
+    float: right;
+}
