@@ -7,7 +7,7 @@ function ToDo(props){
                 <h3>ETA: {props.ETA}</h3>
                 <div className = "taskIsDone">
                     Completed?
-                <input type = "checkbox"></input>
+                <input type = "checkbox" checked= {props.completed}/>
                 </div>
                 <hr></hr>
              </form>
