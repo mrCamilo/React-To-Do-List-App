@@ -1,4 +1,4 @@
-const toDoData = [
+export default [
     {
         id: 1,
         name: 'Take out the trash',
@@ -28,5 +28,3 @@ const toDoData = [
         completed: false
     }
 ]
-
-export default toDoData

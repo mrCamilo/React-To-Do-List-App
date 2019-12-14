@@ -14,8 +14,8 @@ class App extends Component {
     }
 
     render() {
-        const toDoComponents = toDoData.map(function (tasks) {
-            return <ToDo key={tasks.id} name={tasks.name} priority={tasks.priority} ETA={tasks.ETA} />
+        const toDoComponents = this.state.todos.map(function (tasks) {
+            return <ToDo key={tasks.id} tasks = {tasks}/>
         })
 
         return <div className="toDoList">
