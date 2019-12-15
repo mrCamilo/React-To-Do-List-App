@@ -16,4 +16,4 @@
 Add and remove todos from the array. Currently, the 5 todos on the list are static.
 
 ## Screenshot
-[![todo](https://i.imgur.com/xaewSzU.png)](https://i.imgur.com/xaewSzU.png)
+[![todo](https://i.imgur.com/yGnDg2v.png)](https://i.imgur.com/yGnDg2v.png)
