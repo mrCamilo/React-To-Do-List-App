@@ -1,8 +1,5 @@
 import React from 'react'
 
-function HandleChange(){
-    return console.log('oh yea')
-}
 
 function ToDo(props){
     return  <form className ="toDo">
@@ -11,7 +8,7 @@ function ToDo(props){
                 <h3>ETA: {props.ETA}</h3>
                 <div className = "taskIsDone">
                     Completed?
-                <input type = "checkbox" checked= {props.tasks.completed} onChange={HandleChange}/>
+                <input type = "checkbox" checked= {props.tasks.completed} onChange={() => props.handleChange(props.tasks.id)}/>
                 </div>
                 <hr></hr>
              </form>
